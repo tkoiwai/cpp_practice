@@ -10,7 +10,7 @@ public:
   Neko(string s){
     name = s;
   }
-  void souseki(){
+  void souseki() const{ //added "const"
     cout << "吾輩は猫である。名前は" << name << "。" << endl;
   }
 };
